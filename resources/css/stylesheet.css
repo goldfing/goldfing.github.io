@@ -545,6 +545,7 @@ aside a.button {
   background: transparent url(/resources/images/download-button.png) 0 0 no-repeat;
 }
 
+/*
 code, pre {
   margin-bottom: 30px;
   font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
@@ -571,7 +572,7 @@ pre code {
   background-color: #fff;
   border: none;
 }
-
+*/
 ul, ol, dl {
   margin-bottom: 20px;
 }
