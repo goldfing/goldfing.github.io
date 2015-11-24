@@ -1,6 +1,7 @@
 {
   "monthly_menus": [
-    "2015.11"
+    "201511",
+    "201512"
   ],
 
   "category1" : [
@@ -8,11 +9,13 @@
     "programming"
   ],
 
+
   "menus": {
     "software": [
       {
-        "title": "",
-        "href": "/software/intellij/config-junit/index.html"
+        "title" : "[intellij] Junit Test 실행시 Gradle/Junit 선택에서 Junit을 기본으로 설정하는 방법",
+        "href" : "/software/intellij/config-junit/index.html",
+        "createdAt" : "20151124"
       }
     ]
   }
