@@ -19,7 +19,7 @@
 <body>
 <header>
     <div class="inner">
-        <h2>To infinity and beyond!</h2>
+        <h1>To infinity and beyond!</h1>
         <a href="https://github.com/goldfing" class="button">
             <small>Follow me on</small>
             GitHub</a>
@@ -29,11 +29,11 @@
 <div id="content-wrapper">
     <div class="inner clearfix">
         <section id="main-content">
-            <h3>
-                <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true">
+            <h2>
+                <a id="document-title" class="anchor" href="#document-title" aria-hidden="true">
                     <span class="octicon octicon-link"></span>
                 </a>
-                Junit Test에서 Gradle/Junit 선택에서 Junit을 기본으로 설정하는 방 </h3>
+                Junit Test에서 Gradle/Junit 선택에서 Junit을 기본으로 설정하는 방법</h2>
 
             <p>IntelliJ 14 부터는 Gradle plugin 적용시 Test Case에서 Run 선택시 Gradle과 JUnit 중 하나를 선택하도록 표시된다.</p>
 
@@ -41,20 +41,21 @@
 
             <p>
                 이렇게 표시되지 않고, 바로 JUnit이 실행되게 하려면..
-
                 idea.properties 파일에 다음 라인 추가 후 IntelliJ를 재시작한다.
-
-
                 ```
                 idea.gradle.prefer.idea_test_runner=true
                 ```
-
-                - IntelliJ 14.1 부터 사용 가능 (14.0.x 는 upgrade 필요)
-                - idea.properties 파일 위치
-
-                - OSX :  /Applications/IntelliJ IDEA 14.app/Contents/bin/idea.properties
-                - Windows :  INSTALL_DIR/bin/idea.properties
             </p>
+
+            <ul>
+                <li>IntelliJ 14.1 부터 사용 가능 (14.0.x 는 upgrade 필요)</li>
+                <li>idea.properties 파일 위치</li>
+            </ul>
+
+            <ul>
+                <li>OSX :  /Applications/IntelliJ IDEA 14.app/Contents/bin/idea.properties</li>
+                <li>Windows :  INSTALL_DIR/bin/idea.properties</li>
+            </ul>
 
         </section>
 
