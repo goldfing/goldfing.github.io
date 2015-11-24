@@ -1,5 +1,19 @@
 {
-  "monthly_menus" : [
+  "monthly_menus": [
     "2015.11"
-  ]
+  ],
+
+  "category1" : [
+    "software",
+    "programming"
+  ],
+
+  "menus": {
+    "software": [
+      {
+        "title": "",
+        "href": "/software/intellij/config-junit/index.html"
+      }
+    ]
+  }
 }
