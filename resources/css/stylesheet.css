@@ -440,12 +440,16 @@ p {
   margin-top: 0;
 }
 
+
 a {
   color: #2879d0;
 }
+
+/*
 a:hover {
   color: #2268b2;
 }
+*/
 
 header {
   padding-top: 40px;
@@ -455,7 +459,7 @@ header {
   border-bottom: solid 1px #275da1;
 }
 
-header h1 {
+header h1 a {
   width: 740px;
   margin-top: 0;
   margin-bottom: 0.2em;

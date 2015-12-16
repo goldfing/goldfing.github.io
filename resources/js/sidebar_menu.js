@@ -1,4 +1,1 @@
-/**
- * Created by goldfing on 2015. 11. 24..
- */
-
+// articles.json을 읽어와서 <aside>에 dom을 추가한다
