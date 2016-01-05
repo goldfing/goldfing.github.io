@@ -19,7 +19,11 @@
         "href" : "#/programming"
       },
       "articles" : [
-
+        {
+          "title" : "[spock] The Spock compiler plugin cannot execute because Spock 1.0.0-groovy-2.4 is not compatible with Groovy 2.3.10.",
+          "href" : "#/programming/spock/groovy-not-compatible",
+          "createdAt" : "20160105"
+        }
       ]
     },
     {

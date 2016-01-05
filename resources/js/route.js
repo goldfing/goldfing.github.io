@@ -11,6 +11,7 @@ angular.module('githubApp', ['ngRoute'])
 
             // Programming
             .when('/programming', {templateUrl: 'programming/home.html'})
+            .when('/programming/spock/groovy-not-compatible', {templateUrl: 'programming/spock/spock-groovy-not-compatible.html'})
 
             // PC
             .when('/pc', {templateUrl: 'pc/home.html'})

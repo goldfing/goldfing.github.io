@@ -34,14 +34,24 @@
 
 <div id="content-wrapper">
     <div class="inner clearfix">
+        <!-- main content -->
         <ng-view></ng-view>
-        <aside id="sidebar">
-        <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-        </ul>
 
+        <!-- side menu -->
+        <aside id="sidebar">
+            <table>
+                <th>- Programming</th>
+                <tr>
+                    <td># <a href="#/programming/spock/groovy-not-compatible">The Spock compiler plugin cannot execute because Spock 1.0.0-groovy-2.4 is not compatible with Groovy 2.3.10.</a></td>
+                </tr>
+
+                <tr><td>&nbsp;</td></tr>
+
+                <th>- Software</th>
+                <tr>
+                    <td># <a href="#/sw/intellij-config-junit">[intellij] Junit Test 실행시 Gradle/Junit 선택에서 Junit을 기본으로 설정하는 방법</a></td>
+                </tr>
+            </table>
         </aside>
 
     </div>

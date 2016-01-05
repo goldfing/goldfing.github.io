@@ -463,7 +463,7 @@ header h1 a {
   width: 740px;
   margin-top: 0;
   margin-bottom: 0.2em;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: normal;
   line-height: 1;
   color: #fff;
@@ -483,7 +483,7 @@ header h2 {
 
 .inner {
   position: relative;
-  width: 940px;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -494,7 +494,7 @@ header h2 {
 
 #main-content {
   float: left;
-  width: 690px;
+  width: 1000px;
 }
 
 #main-content img {
@@ -503,7 +503,7 @@ header h2 {
 
 aside#sidebar {
   float: right;
-  width: 200px;
+  width: 300px;
   min-height: 504px;
   padding-left: 20px;
   font-size: 12px;
@@ -593,17 +593,18 @@ hr {
 
 table {
   width: 100%;
-  border: 1px solid #ebebeb;
+  border: 0px solid #ebebeb;
 }
 
 th {
   font-weight: 500;
+  text-align: left;
 }
 
 td {
   font-weight: 300;
-  text-align: center;
-  border: 1px solid #ebebeb;
+  text-align: left;
+  border: 0px solid #ebebeb;
 }
 
 form {
