@@ -1,4 +1,6 @@
-goldfing.github.io.iml
+*.iml
+*.class
+out/
 .idea/.name
 .idea/compiler.xml
 .idea/misc.xml
