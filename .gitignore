@@ -9,4 +9,11 @@ out/
 .idea/vcs.xml
 .idea/workspace.xml
 .idea/copyright/profiles_settings.xml
+.idea/gradle.xml
+
 _site/
+.idea/
+.idea/*
+.gradle/
+.gradlew
+.gradlew.bat
