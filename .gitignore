@@ -17,3 +17,7 @@ _site/
 .gradle/
 .gradlew
 .gradlew.bat
+gradlew
+gradlew.bat
+gradle/wrapper/gradle-wrapper.jar
+gradle/wrapper/gradle-wrapper.properties
